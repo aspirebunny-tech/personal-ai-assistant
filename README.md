@@ -289,6 +289,15 @@ cp flutter_app/build/app/outputs/flutter-apk/app-release.apk \
 - If sharing builds, rotate exposed keys immediately.
 - Tailscale gives private network access; only authorize trusted devices.
 
+Quick hardening:
+```bash
+chmod +x scripts/pre-commit-secret-scan.sh
+cp scripts/pre-commit-secret-scan.sh .git/hooks/pre-commit
+```
+
+Detailed policy:
+- `SECURITY.md`
+
 ## 11) Recovery Checklist (Fast)
 
 When app stops syncing:
