@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#14161a"/>
+  <rect x="40" y="40" width="1320" height="820" rx="24" fill="#1c1e24" stroke="#3c404c" stroke-width="2"/>
+  <text x="70" y="88" fill="#f4f4f4" font-size="34" font-family="Arial" font-weight="700">AI Provider &amp; Model Settings (Sample)</text>
+
+  <rect x="70" y="140" width="690" height="680" rx="18" fill="#16181d" stroke="#464a54" stroke-width="2"/>
+  <text x="95" y="178" fill="#e8884a" font-size="24" font-family="Arial" font-weight="700">1) Choose Provider</text>
+
+  <rect x="95" y="205" width="255" height="42" rx="10" fill="#2a2e36" stroke="#5a6070" stroke-width="2"/>
+  <text x="112" y="232" fill="#e6e8ed" font-size="18" font-family="Arial">OpenAI</text>
+
+  <rect x="95" y="263" width="255" height="42" rx="10" fill="#e8884a" stroke="#e8884a" stroke-width="2"/>
+  <text x="112" y="290" fill="#181a1f" font-size="18" font-family="Arial" font-weight="700">OpenRouter</text>
+
+  <rect x="95" y="321" width="255" height="42" rx="10" fill="#2a2e36" stroke="#5a6070" stroke-width="2"/>
+  <text x="112" y="348" fill="#e6e8ed" font-size="18" font-family="Arial">Ollama</text>
+
+  <rect x="95" y="379" width="255" height="42" rx="10" fill="#2a2e36" stroke="#5a6070" stroke-width="2"/>
+  <text x="112" y="406" fill="#e6e8ed" font-size="18" font-family="Arial">Anthropic</text>
+
+  <text x="95" y="478" fill="#e8884a" font-size="24" font-family="Arial" font-weight="700">2) API Key</text>
+  <rect x="95" y="510" width="635" height="50" rx="10" fill="#0f1014" stroke="#586070" stroke-width="2"/>
+  <text x="112" y="541" fill="#d3d7de" font-size="19" font-family="Courier New">sk-or-v1-********************A7KD</text>
+  <text x="95" y="585" fill="#9aa0ac" font-size="16" font-family="Arial">Only masked key visible. Full key hidden after save.</text>
+
+  <rect x="95" y="625" width="145" height="45" rx="12" fill="#e8884a"/>
+  <text x="120" y="653" fill="#181a1f" font-size="18" font-family="Arial" font-weight="700">Validate Key</text>
+
+  <rect x="255" y="625" width="175" height="45" rx="12" fill="#2e323a" stroke="#5c6270" stroke-width="2"/>
+  <text x="291" y="653" fill="#e7ebf2" font-size="18" font-family="Arial" font-weight="700">Set Default</text>
+
+  <rect x="800" y="140" width="530" height="680" rx="18" fill="#16181d" stroke="#464a54" stroke-width="2"/>
+  <text x="825" y="178" fill="#e8884a" font-size="24" font-family="Arial" font-weight="700">3) Available Models</text>
+  <text x="825" y="206" fill="#9fa6b2" font-size="16" font-family="Arial">Sorted by token rate: Low -&gt; High</text>
+
+  <rect x="825" y="235" width="480" height="35" rx="8" fill="#2a2e36"/>
+  <text x="840" y="258" fill="#eef1f6" font-size="15" font-family="Arial" font-weight="700">Model</text>
+  <text x="1115" y="258" fill="#eef1f6" font-size="15" font-family="Arial" font-weight="700">Rate / 1M tok</text>
+
+  <g font-family="Arial" font-size="14">
+    <rect x="825" y="282" width="480" height="58" rx="8" fill="#1c2027" stroke="#4a4f5b"/>
+    <text x="840" y="316" fill="#eceff5">google/gemma-2-9b-it:free</text>
+    <text x="1140" y="316" fill="#8be19a">$0.00</text>
+    <rect x="1230" y="296" width="60" height="30" rx="8" fill="#343a44"/><text x="1245" y="316" fill="#e2e6ef">Use</text>
+
+    <rect x="825" y="348" width="480" height="58" rx="8" fill="#171b22" stroke="#4a4f5b"/>
+    <text x="840" y="382" fill="#eceff5">meta-llama/llama-3.1-8b-instruct:free</text>
+    <text x="1140" y="382" fill="#8be19a">$0.00</text>
+    <rect x="1230" y="362" width="60" height="30" rx="8" fill="#343a44"/><text x="1245" y="382" fill="#e2e6ef">Use</text>
+
+    <rect x="825" y="414" width="480" height="58" rx="8" fill="#2b241a" stroke="#7f6542"/>
+    <text x="840" y="448" fill="#eceff5">x-ai/grok-4.1-fast</text>
+    <text x="1140" y="448" fill="#f0c783">$0.60</text>
+    <rect x="1230" y="428" width="60" height="30" rx="8" fill="#e8884a"/><text x="1243" y="448" fill="#181a1f" font-weight="700">Use</text>
+
+    <rect x="825" y="480" width="480" height="58" rx="8" fill="#171b22" stroke="#4a4f5b"/>
+    <text x="840" y="514" fill="#eceff5">openai/gpt-4o-mini</text>
+    <text x="1140" y="514" fill="#f0c783">$0.90</text>
+    <rect x="1230" y="494" width="60" height="30" rx="8" fill="#343a44"/><text x="1245" y="514" fill="#e2e6ef">Use</text>
+
+    <rect x="825" y="546" width="480" height="58" rx="8" fill="#1c2027" stroke="#4a4f5b"/>
+    <text x="840" y="580" fill="#eceff5">openai/gpt-4.1</text>
+    <text x="1140" y="580" fill="#f0c783">$5.00</text>
+    <rect x="1230" y="560" width="60" height="30" rx="8" fill="#343a44"/><text x="1245" y="580" fill="#e2e6ef">Use</text>
+  </g>
+
+  <text x="825" y="760" fill="#b3bac6" font-size="16" font-family="Arial">Current: OpenRouter | x-ai/grok-4.1-fast</text>
+  <text x="825" y="786" fill="#b3bac6" font-size="16" font-family="Arial">Fallback chain: free model(s) + selected paid model</text>
+</svg>

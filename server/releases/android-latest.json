@@ -1,0 +1,9 @@
+{
+  "platform": "android",
+  "latest_version": "1.0.5",
+  "latest_build_number": 6,
+  "apk_url": "/releases/personal_ai_assistant-latest.apk",
+  "force_update": false,
+  "release_notes": "Home screen me Tailscale session warning card + backend session/expiry diagnostics + auto-start watchdog improvements",
+  "published_at": "2026-03-01T15:45:00.000Z"
+}
