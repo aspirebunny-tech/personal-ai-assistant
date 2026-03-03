@@ -318,3 +318,6 @@ For first-time setup, use:
 - `install-guide/STEP_2_Cloudflare.md`
 - `install-guide/STEP_3_Flutter_App.md`
 - `install-guide/STEP_4_First_Setup.md`
+
+Architecture flow chart:
+- `FLOW.md`
